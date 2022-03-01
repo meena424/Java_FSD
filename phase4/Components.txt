@@ -1,0 +1,49 @@
+
+⦁	Angular has been installed in your practice labs using npm (Refer FSD: Lab Guide - Phase 4)
+⦁	To verify the installation:
+⦁	Open the command-line interface
+⦁	Type in the command:
+
+ng --version
+
+
+⦁	Create a new project  using the command:
+ng new angular-app
+
+ 
+
+⦁	Move the code to the application folder and start the server.
+cd angular-app
+ng serve
+
+Step 3.1.2: Creating Angular components
+
+⦁	Open Visual Studio Code
+⦁	Navigate to the created angular-app project folder.
+⦁	Add the following code in app.module.ts.
+⦁	Create a folder called products inside the src/app folder.
+⦁	Create a product-list.component.html file in the products folder.
+⦁	Add the following code to product-list.component.html.
+<h1> Product List Page </h1>
+⦁	Create a file called  product-list.component.ts.
+ 
+⦁	Add the following code in app.module.ts.
+
+⦁	Add the following code in app.component.ts.
+
+⦁	By saving the above changes and starting the server, you will be able to see the following screen: 
+
+ 
+
+Step 3.1.3: Pushing the code to your GitHub repositories
+⦁	Open your command prompt and navigate to the folder where you have created your files.
+cd <folder path>
+⦁	Initialize your repository using the following command:
+git init
+⦁	Add all the files to your git repository using the following command:
+git add .
+⦁	Commit the changes using the following command:
+git commit .  -m “Changes have been committed.”
+⦁	Push the files to the folder you initially created using the following command:
+git push -u origin master
+
